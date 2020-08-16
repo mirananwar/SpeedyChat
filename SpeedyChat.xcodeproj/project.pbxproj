@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A349236A24E83CDE001BF9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349236924E83CDE001BF9EC /* AppDelegate.swift */; };
 		A349236C24E83CDE001BF9EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349236B24E83CDE001BF9EC /* SceneDelegate.swift */; };
-		A349236E24E83CDE001BF9EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349236D24E83CDE001BF9EC /* ViewController.swift */; };
-		A349237124E83CDE001BF9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A349236F24E83CDE001BF9EC /* Main.storyboard */; };
+		A349236E24E83CDE001BF9EC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349236D24E83CDE001BF9EC /* WelcomeViewController.swift */; };
 		A349237324E83CE0001BF9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A349237224E83CE0001BF9EC /* Assets.xcassets */; };
 		A349237624E83CE0001BF9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A349237424E83CE0001BF9EC /* LaunchScreen.storyboard */; };
+		A349238324E83D6F001BF9EC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349238224E83D6F001BF9EC /* Message.swift */; };
+		A349238524E83D88001BF9EC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349238424E83D88001BF9EC /* MessageCell.swift */; };
+		A349238724E83DC6001BF9EC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349238624E83DC6001BF9EC /* RegisterViewController.swift */; };
+		A349238924E83E10001BF9EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349238824E83E10001BF9EC /* LoginViewController.swift */; };
+		A349238B24E83E29001BF9EC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349238A24E83E29001BF9EC /* ChatViewController.swift */; };
+		A349238D24E83E49001BF9EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349238C24E83E49001BF9EC /* Constants.swift */; };
+		A398512524E8455B00F0BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A398512424E8455B00F0BBBB /* Main.storyboard */; };
+		A398512724E8457000F0BBBB /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A398512624E8457000F0BBBB /* MessageCell.xib */; };
+		A398512A24E8492900F0BBBB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A398512924E8492900F0BBBB /* IQKeyboardManagerSwift */; };
+		A3F07D3C24E8424B00485B83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3F07D3B24E8424B00485B83 /* GoogleService-Info.plist */; };
+		D0CDFAF5F4AD80D5BECF2B06 /* Pods_SpeedyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CB6DF6F8C7B81A180BE783 /* Pods_SpeedyChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53152B9CF85FE289952A2379 /* Pods-SpeedyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedyChat.release.xcconfig"; path = "Target Support Files/Pods-SpeedyChat/Pods-SpeedyChat.release.xcconfig"; sourceTree = "<group>"; };
 		A349236624E83CDE001BF9EC /* SpeedyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A349236924E83CDE001BF9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A349236B24E83CDE001BF9EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A349236D24E83CDE001BF9EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A349237024E83CDE001BF9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A349236D24E83CDE001BF9EC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A349237224E83CE0001BF9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A349237524E83CE0001BF9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A349237724E83CE0001BF9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A349238224E83D6F001BF9EC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A349238424E83D88001BF9EC /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		A349238624E83DC6001BF9EC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A349238824E83E10001BF9EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A349238A24E83E29001BF9EC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A349238C24E83E49001BF9EC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A398512424E8455B00F0BBBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A398512624E8457000F0BBBB /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		A3F07D3B24E8424B00485B83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5CB6DF6F8C7B81A180BE783 /* Pods_SpeedyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A33946342DD8531FD20878 /* Pods-SpeedyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedyChat.debug.xcconfig"; path = "Target Support Files/Pods-SpeedyChat/Pods-SpeedyChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CDFAF5F4AD80D5BECF2B06 /* Pods_SpeedyChat.framework in Frameworks */,
+				A398512A24E8492900F0BBBB /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5167B6D126BAFADB42035AA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1A33946342DD8531FD20878 /* Pods-SpeedyChat.debug.xcconfig */,
+				53152B9CF85FE289952A2379 /* Pods-SpeedyChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A349235D24E83CDD001BF9EC = {
 			isa = PBXGroup;
 			children = (
 				A349236824E83CDE001BF9EC /* SpeedyChat */,
 				A349236724E83CDE001BF9EC /* Products */,
+				5167B6D126BAFADB42035AA8 /* Pods */,
+				AD757C466F6BE9607418CA18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,55 @@
 		A349236824E83CDE001BF9EC /* SpeedyChat */ = {
 			isa = PBXGroup;
 			children = (
+				A349237F24E83D20001BF9EC /* Model */,
+				A349238024E83D27001BF9EC /* View */,
+				A349238124E83D2D001BF9EC /* Controller */,
 				A349236924E83CDE001BF9EC /* AppDelegate.swift */,
 				A349236B24E83CDE001BF9EC /* SceneDelegate.swift */,
-				A349236D24E83CDE001BF9EC /* ViewController.swift */,
-				A349236F24E83CDE001BF9EC /* Main.storyboard */,
 				A349237224E83CE0001BF9EC /* Assets.xcassets */,
 				A349237424E83CE0001BF9EC /* LaunchScreen.storyboard */,
 				A349237724E83CE0001BF9EC /* Info.plist */,
+				A3F07D3B24E8424B00485B83 /* GoogleService-Info.plist */,
+				A349238C24E83E49001BF9EC /* Constants.swift */,
 			);
 			path = SpeedyChat;
+			sourceTree = "<group>";
+		};
+		A349237F24E83D20001BF9EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A349238224E83D6F001BF9EC /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A349238024E83D27001BF9EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A349238424E83D88001BF9EC /* MessageCell.swift */,
+				A398512424E8455B00F0BBBB /* Main.storyboard */,
+				A398512624E8457000F0BBBB /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A349238124E83D2D001BF9EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A349236D24E83CDE001BF9EC /* WelcomeViewController.swift */,
+				A349238624E83DC6001BF9EC /* RegisterViewController.swift */,
+				A349238824E83E10001BF9EC /* LoginViewController.swift */,
+				A349238A24E83E29001BF9EC /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD757C466F6BE9607418CA18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB6DF6F8C7B81A180BE783 /* Pods_SpeedyChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A349237A24E83CE0001BF9EC /* Build configuration list for PBXNativeTarget "SpeedyChat" */;
 			buildPhases = (
+				94296A3E3A69754182483716 /* [CP] Check Pods Manifest.lock */,
 				A349236224E83CDE001BF9EC /* Sources */,
 				A349236324E83CDE001BF9EC /* Frameworks */,
 				A349236424E83CDE001BF9EC /* Resources */,
+				CA6AED685B3BF12E8027BEB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SpeedyChat;
+			packageProductDependencies = (
+				A398512924E8492900F0BBBB /* IQKeyboardManagerSwift */,
+			);
 			productName = SpeedyChat;
 			productReference = A349236624E83CDE001BF9EC /* SpeedyChat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = A349235D24E83CDD001BF9EC;
+			packageReferences = (
+				A398512824E8492900F0BBBB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = A349236724E83CDE001BF9EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,36 +207,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A398512724E8457000F0BBBB /* MessageCell.xib in Resources */,
 				A349237624E83CE0001BF9EC /* LaunchScreen.storyboard in Resources */,
+				A398512524E8455B00F0BBBB /* Main.storyboard in Resources */,
+				A3F07D3C24E8424B00485B83 /* GoogleService-Info.plist in Resources */,
 				A349237324E83CE0001BF9EC /* Assets.xcassets in Resources */,
-				A349237124E83CDE001BF9EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94296A3E3A69754182483716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6AED685B3BF12E8027BEB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedyChat/Pods-SpeedyChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedyChat/Pods-SpeedyChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeedyChat/Pods-SpeedyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A349236224E83CDE001BF9EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A349236E24E83CDE001BF9EC /* ViewController.swift in Sources */,
+				A349238924E83E10001BF9EC /* LoginViewController.swift in Sources */,
+				A349236E24E83CDE001BF9EC /* WelcomeViewController.swift in Sources */,
+				A349238B24E83E29001BF9EC /* ChatViewController.swift in Sources */,
+				A349238524E83D88001BF9EC /* MessageCell.swift in Sources */,
+				A349238324E83D6F001BF9EC /* Message.swift in Sources */,
+				A349238724E83DC6001BF9EC /* RegisterViewController.swift in Sources */,
 				A349236A24E83CDE001BF9EC /* AppDelegate.swift in Sources */,
 				A349236C24E83CDE001BF9EC /* SceneDelegate.swift in Sources */,
+				A349238D24E83E49001BF9EC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A349236F24E83CDE001BF9EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A349237024E83CDE001BF9EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A349237424E83CE0001BF9EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +406,7 @@
 		};
 		A349237B24E83CE0001BF9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A33946342DD8531FD20878 /* Pods-SpeedyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +424,7 @@
 		};
 		A349237C24E83CE0001BF9EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53152B9CF85FE289952A2379 /* Pods-SpeedyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,6 +462,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A398512824E8492900F0BBBB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackIftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A398512924E8492900F0BBBB /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A398512824E8492900F0BBBB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A349235E24E83CDD001BF9EC /* Project object */;
 }
